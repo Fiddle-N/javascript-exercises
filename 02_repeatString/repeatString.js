@@ -9,7 +9,7 @@ const repeatString = function(string, num) {
         output += string;
     }
 
-    return output
+    return output;
 };
 
 // Do not edit below this line
