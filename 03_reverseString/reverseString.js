@@ -1,12 +1,6 @@
 const reverseString = function(string) {
-    const strArray = [];
-
-    for (const char of string) {
-        strArray.push(char);
-    }
-
+    const strArray = string.split('');
     const reversedArray = strArray.reverse();
-
     return reversedArray.join('');
 };
 
