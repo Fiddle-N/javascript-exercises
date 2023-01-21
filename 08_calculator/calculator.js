@@ -11,7 +11,9 @@ const sum = function(arr) {
 };
 
 const multiply = function(arr) {
-  return arr.reduce(((acc, currVal) => acc * currVal));
+  return arr.length
+    ? arr.reduce(((acc, currVal) => acc * currVal))
+    : 0;
 };
 
 const power = function(num1, num2) {
